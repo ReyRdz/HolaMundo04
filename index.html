@@ -13,7 +13,7 @@
 
 function onBodyLoad() { document.addEventListener("deviceready", onDeviceReady, false);}
 
-function onDeviceReady() { var element = document.getElementById('appInfo'); element.innerHTML = 'PhoneGap (version ' + device.cordova + ')<br />' +'Modelo ( ' + device.model + ')<br />' +'Plataforma: '+ device.platform + '<br/> ' + device.name + 'version (' + device.version + ').' + 'UUID: (' + device.uuid + ')<br/>' + 'Manufacruta: (' + device.manufacturer + ')<br/>' + 'Virtual: (' + device.isVirtual + ')<br/>' + 'Serial: (' + device.serial + '.';}
+function onDeviceReady() { var element = document.getElementById('appInfo'); element.innerHTML = 'PhoneGap: (version ' + device.cordova + ').<br />' +'Modelo: ( ' + device.model + ').<br />' +'Plataforma: ('+ device.platform + ').<br/> ' + 'version (' + device.version + ').<br/>' + 'UUID: (' + device.uuid + ').<br/>' + 'Manufacruta: (' + device.manufacturer + ').<br/>' + 'Virtual: (' + device.isVirtual + ').<br/>' + 'Serial: (' + device.serial + ').';}
 
 </script>
 </head>
